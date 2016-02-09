@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C0F11937EC31AF9A12429149DCC39B34FF2A9ADB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5E648BAF90F550A21C2815DA1D27E475B78A6687" : 0,
+    "C0F11937EC31AF9A12429149DCC39B34FF2A9ADB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3645C674-5407-4B84-9C7B-0D34AAE6F87D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5E648BAF90F550A21C2815DA1D27E475B78A6687" : "",
+    "C0F11937EC31AF9A12429149DCC39B34FF2A9ADB" : "Quiz\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Quiz",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Quiz.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/masahiro-nambu\/Clock.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5E648BAF90F550A21C2815DA1D27E475B78A6687"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/masahiro-nambu\/5-Quiz.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C0F11937EC31AF9A12429149DCC39B34FF2A9ADB"
+    }
+  ]
+}
