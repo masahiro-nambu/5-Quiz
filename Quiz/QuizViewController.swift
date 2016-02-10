@@ -29,7 +29,8 @@ class QuizViewController: UIViewController {
     
     //選択肢のボタン
     @IBOutlet var choiceButtons: Array<UIButton>!
-
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +38,10 @@ class QuizViewController: UIViewController {
         //------------------------ここから下にクイズを書く------------------------//
         quizArray.append(["プロ野球のホームラン最多本数を記録しているのは王貞治。ではその数は何本？","756","768","868",3])
         quizArray.append(["「ドラえもん」でのび太のパパの持つ資格はどれでしょうか？","全国英語検定連盟三段","全国珠算連盟九段","全国柔道連盟二段",2])
+        quizArray.append(["エタノールの燃焼によって発生する気体は何？", "二酸化炭素", "酸素", "窒素", 1])
+        quizArray.append(["ロシア連邦を漢字表記にすると　次のうちどれ？", "露西亜", "露西阿", "路西亜", 1])
+        quizArray.append(["「NHK」の正式名称は何？", "日本放送公社", "日本放送協会", "日本放送組合", 2])
+        
 
         //------------------------ここから下にクイズを書く------------------------//
         choiceQuiz()
@@ -72,6 +77,7 @@ class QuizViewController: UIViewController {
             choiceQuiz()
         }
     }
+    
     
     func performSegueToResult() {
         performSegueWithIdentifier("toResultView", sender: nil)

@@ -9,7 +9,10 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-     var correctAnswer:Int = 0
+    var correctAnswer:Int = 0
+    
+    @IBOutlet var quizScore: UILabel!
+    @IBOutlet var comment: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +24,18 @@ class ResultViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    override func viewDidAppear(animated: Bool) {
+        quizScore.text = String(correctAnswer)
+        if correctAnswer == 5 {
+            comment.text = "満点！素晴らしい！"
+        } else if correctAnswer <= 4 && correctAnswer >= 3 {
+            comment.text = "まあまあ"
+        } else {
+            comment.text = "残念もう一回"
+        }
+    }
+
 
 }
